@@ -1,0 +1,102 @@
+body{
+ color: #fff;
+ font-family: 'Inter', sans-serif;
+}
+
+div{
+  margin: 0 auto;
+  text-align: center;
+  width: 550px;
+  padding: 20px;
+}
+
+#upperBox{
+  background-image: linear-gradient(
+    90deg,
+    hsl(223deg 73% 56%) 0%,
+    hsl(258deg 59% 61%) 10%,
+    hsl(287deg 49% 55%) 20%,
+    hsl(313deg 56% 55%) 30%,
+    hsl(328deg 72% 58%) 40%,
+    hsl(340deg 82% 61%) 50%,
+    hsl(343deg 91% 59%) 60%,
+    hsl(345deg 98% 57%) 70%,
+    hsl(347deg 100% 53%) 80%,
+    hsl(350deg 100% 50%) 90%,
+    hsl(0deg 100% 50%) 100%
+  );
+   background-size: cover;
+   
+}
+
+#upperBox h1{
+  font-size: 22px;
+  font-weight: 800;
+}
+
+#number{
+  font-weight: 800;
+  font-size: 98px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+#bottomBox{
+  color: #1A1921;
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+#bottomBox h2{
+  font-size: 14px;
+}
+
+.type{
+  font-weight: 600;
+}
+
+.dark{
+  background: #1F2937;
+}
+
+.dark .type{
+  color: #fff;
+}
+
+.dark p{
+  color:#D2D2D2;
+
+}
+
+#number1{
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  color: #fff;
+  
+}
+
+#number1:focus{
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+::-webkit-input-placeholder { /* Edge */
+ 
+  font-size: 14px;
+  text-align: center;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ 
+  font-size: 14px;
+  text-align: center;
+}
+
+::placeholder {
+ 
+  font-size: 14px;
+  text-align: center;
+}
